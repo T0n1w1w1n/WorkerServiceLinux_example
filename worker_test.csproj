@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-worker_test-8578AB24-D359-408B-BE6A-E71EF8EC2E96</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.10" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Systemd" Version="3.1.4" />
+    <PackageReference Include="System.Diagnostics.EventLog" Version="5.0.0" />
+  </ItemGroup>
+</Project>
